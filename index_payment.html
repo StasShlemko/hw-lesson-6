@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Syne:wght@400..800&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Syne:wght@400..800&display=swap"
+        rel="stylesheet">
+</head>
+<body>
+    <div class="body payment">
+        <div class="img">
+            <div class="logo">
+                <img src="img/logo.png" alt="">
+            </div>
+            <div class="img_man">
+                <img src="img/card_legs.png" alt="">
+            </div>
+        </div>
+        <div class="form form_payment">
+            <div class="info">
+                <h1>Payment Details</h1>
+            </div>
+            <div class="form_body">
+                <form action="#">
+                    <div class="payment_details">
+                        <div class="payment_det_card">
+                            <div class="form_style">
+                                <label for="card">Credit Card Number</label>
+                                <input type="number" id="card" name="card" />
+                            </div>
+                            <div class="card_cont form_style">
+                                <div class="left">
+                                    <label for="expiration_date">Expiration Date</label>
+                                    <input type="date" id="expiration_date">
+                                </div>
+                                <div class="right">
+                                    <label for="cvv">CVV</label>
+                                    <input type="number" max="999" id="cvv">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="payment_det_address">
+                            <div class="address_code form_style">
+                                <label for="address">Billing Address - Street</label>
+                                <select name="address" id="address">
+                                    <option value="Khreshchatyk">Khreshchatyk</option>
+                                    <option value="Bessarabska Square">Bessarabska Square</option>
+                                    <option value="Maidan Nezalezhnosti">Maidan Nezalezhnosti</option>
+                                    <option value="European Square">European Square</option>
+                                    <option value="Trade Unions Building">Trade Unions Building</option>
+                                </select>
+                            </div>
+                            <div class="zip_code form_style">
+                                <label for="">Zip Code</label>
+                                <input type="number">
+                            </div>
+                        </div>
+                        <div class="city_s">
+                            <div class="city form_style">
+                                <label for="city">City</label>
+                                <input type="text" id="city">
+                            </div>
+                            <div class="State form_style">
+                                <label for="state">State</label>
+                                <input type="text" id="state">
+                            </div>
+                        </div>
+                        <div class="image_right_paym">
+                            <a href="index_account.html"><img src="img/right.png" alt=""></a>
+                        </div>
+                        <div class="image_left_paym">
+                            <a href="index_course.html"><img src="img/left.png" alt=""></a>
+                        </div>
+                    </div>
+            </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
